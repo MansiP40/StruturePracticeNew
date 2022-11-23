@@ -33,7 +33,7 @@ public class TestSuit extends BaseTest {
 //             cameraPhotoPage.navigateToCameraPhotoPage();
 //    }
     @Test//This a test method
-    public void register() {
+    public void verifyUserRegister() {
         //click on registration button
         homePage.verifyRegisterButtonPresent();
         //verify user is on register page
